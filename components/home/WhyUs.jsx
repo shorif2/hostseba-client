@@ -4,7 +4,7 @@ const WhyUs = () => {
   return (
     <div className="bg-[#F9FAFB]">
       <div className="container mx-auto px-16 py-16 ">
-        <div className="grid grid-cols-4 gap-8">
+        <div className="grid grid-cols-4 gap-8 px-4.75">
           {/* 1st div */}
           <div className="shadow-md p-6 bg-white rounded-md ">
             <h3 className="text-xl font-medium pb-3">Free Migrations</h3>
