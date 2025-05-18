@@ -7,7 +7,7 @@ const WhyUs = () => {
         <div className="grid grid-cols-4 gap-8 px-4.75">
           {/* 1st div */}
           <div className="shadow-md p-6 bg-white rounded-md ">
-            <h3 className="text-xl font-medium pb-3">Free Migrations</h3>
+            <h3 className="text-xl font-medium pb-3">Free migrations</h3>
             <p className="text-[#374151]">
               Moving to HostSeba is easy, we'll take care of the migration for
               you for FREE

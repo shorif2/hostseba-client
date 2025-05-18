@@ -6,7 +6,7 @@ const Banner = () => {
       <div className="container mx-auto h-[300px] w-1/2">
         <div className="text-center">
           <h2 className="text-white text-5xl font-bold pb-6">
-            Premium Web hosting & Domain Services
+            Premium Web Hosting & Domain Services
           </h2>
           <p className="text-xl pb-8 text-white">
             Fast, secure, and reliable hosting for your website
