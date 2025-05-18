@@ -3,11 +3,11 @@ import React from "react";
 const WhyChoose = () => {
   return (
     <div className="bg-[#F9FAFB]">
-      <div className="container mx-auto px-16 py-16 ">
+      <div className="container mx-auto px-4 xl:px-16 py-16 ">
         <h2 className=" text-center text-3xl font-bold pb-12">
           Why choose HostSeba Hosting?
         </h2>
-        <div className="grid grid-cols-4 gap-8 ">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 xl:gap-8 ">
           {/* 1st cart */}
           <div className="shadow-md p-6 bg-white rounded-md ">
             <h3 className="text-xl font-medium pb-3">Money Back Guarantee</h3>

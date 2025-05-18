@@ -3,8 +3,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="container mx-auto px-16 py-[18.25px]  ">
-      <div className="flex justify-between px-4.75">
+    <div className="container mx-auto px-3 xl:px-16 py-[18.25px]  ">
+      <div className="flex justify-between xl:px-4.75">
         {/* logo */}
         <div className="">
           <Link className="text-blue-600 font-bold text-xl" href="/">
@@ -12,7 +12,7 @@ const Navbar = () => {
           </Link>
         </div>
         {/* menue */}
-        <div className="flex justify-center items-center gap-6 text-[#374151]">
+        <div className="hidden  md:flex justify-center items-center gap-6 text-[#374151]">
           <Link href="/">Home</Link>
           <Link href="/domains">Domains</Link>
           <Link href="/hosting">Hosting</Link>

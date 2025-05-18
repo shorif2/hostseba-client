@@ -1,13 +1,11 @@
-import React from "react";
-
 const Service = () => {
   return (
     <div className="">
-      <div className="container mx-auto px-16 py-16 ">
+      <div className="container mx-auto px-4 xl:px-16 py-16 ">
         <div className="pb-12">
           <h2 className="text-center text-3xl font-bold">Our Services</h2>
         </div>
-        <div className="grid grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 md:gap-4 lg:gap-8">
           {/* Domain */}
           <div className="shadow-sm p-6 bg-white rounded-md flex flex-col justify-center items-center">
             <h3 className="text-xl font-medium pb-10">Domain</h3>
@@ -52,7 +50,9 @@ const Service = () => {
             <p className="absolute top-0 right-0 bg-blue-500 text-white text-sm px-3 py-1 font-medium">
               Popular
             </p>
+            {/* hosting start */}
             <h3 className="text-xl font-medium pb-10">Hosting</h3>
+            {/* features */}
             <div className=" flex items-center">
               <svg
                 className="w-5 h-5 text-green-500 mr-2"
@@ -67,6 +67,7 @@ const Service = () => {
               </svg>
               <p className="text-[#374151]">Premium Hosting</p>
             </div>
+
             <div className=" flex items-center">
               <svg
                 className="w-5 h-5 text-green-500 mr-2"
@@ -81,6 +82,7 @@ const Service = () => {
               </svg>
               <p className="text-[#374151]">USA Premium Hosting</p>
             </div>
+            {/* price */}
             <div className="py-6 text-center">
               <p className="text-[14px] text-[#374151] ">Starting From</p>
               <h4 className="text-2xl font-bold">$60/year</h4>

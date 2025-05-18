@@ -4,8 +4,8 @@ import Copyright from "./Copyright";
 const Footer = () => {
   return (
     <div className="bg-[#1F2937] text-gray-300">
-      <div className="container mx-auto px-16 py-12 ">
-        <div className="grid grid-cols-4 gap-6 pb-8 px-5">
+      <div className="container mx-auto xl:px-16 py-12 ">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 pb-8 px-5">
           {/* logo */}
           <div>
             <h1 className="text-xl font-bold pb-4 text-white">HostSeba</h1>
